@@ -62,6 +62,38 @@ apt-get dist-upgrade -y
 apt-get autoremove -y
 apt-get autoclean -y
 
+apt-get install clamav
+
+If you need clamd, you may also want to run:
+
+apt-get install clamav-daemon
+
+If you require support for scanning compressed RAR files you first need to enable the non-free archive, and then you can install the RAR-plugin using:
+
+apt-get install libclamunrar6
+
+sudo apt install git
+sudo apt install postgresql postgresql-contrib
+
+How to Install Angular CLI on Linux
+Install Node.js on Ubuntu
+$ sudo curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash - [for Node.js version 12]
+$ sudo curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash - [for Node.js version 11]
+$ sudo curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash - [for Node.js version 10]
+$ sudo apt install -y nodejs
+Install Node.js on Debian
+# curl -sL https://deb.nodesource.com/setup_12.x | bash - [for Node.js version 12]
+# curl -sL https://deb.nodesource.com/setup_11.x | bash - [for Node.js version 11]
+# curl -sL https://deb.nodesource.com/setup_10.x | bash - [for Node.js version 10]
+# apt install -y nodejs
+$ sudo apt install -y build-essential  [On Debian/Ubuntu]
+# yum install gcc-c++ make             [On CentOS/RHEL]
+# dnf install gcc-c++ make             [On RHEL 8/Fedora 22+]
+# npm install -g @angular/cli
+OR
+$ sudo npm install -g @angular/cli
+Install Node.js on Ubuntu
+$ su
 
 
 
